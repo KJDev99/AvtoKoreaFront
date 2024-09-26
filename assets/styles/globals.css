@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fafafa;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mySwiper1 .swiper-pagination-bullet {
+  background: #e1e1e1;
+  height: 4px;
+  width: 15px;
+  border-radius: 4px;
+}
+.mySwiper1 .swiper-pagination-bullet-active {
+  background: #ed0000;
+  width: 30px;
+}
+.mySwiper1 .swiper-button-prev {
+  background: #ffffff33;
+  height: 40px;
+  width: 60px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.mySwiper1 .swiper-button-prev::after {
+  font-size: 12px;
+  font-weight: bold;
+}
+.mySwiper1 .swiper-button-next {
+  background: #ffffff33;
+  height: 40px;
+  width: 60px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.mySwiper1 .swiper-button-next::after {
+  font-size: 12px;
+  font-weight: bold;
+}
+.news_shadow {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 23.71%,
+    rgba(0, 0, 0, 0.9) 84.12%
+  );
+}
+
+.bg-form1 {
+  background: url("/Form1.png") no-repeat center center;
+  background-size: contain;
+  height: max-content;
+  max-width: 540px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .bg-form1 {
+    background: url("/Form.png") no-repeat center center;
+  }
+}
+
+.bg-form2 {
+  background: url("/contact-form.png") center/cover no-repeat;
+  width: 100%;
+}
+
+.bg_clip {
+  background: url("/bgred.png") right center / 75% auto no-repeat;
+}
+.bg_full_info {
+  background: url("/infoblockfullbg.png") right center / 100% 100% no-repeat;
+}
+.bg_clip2 {
+  background: url("/infoblockbg.png") right center / 100% 100% no-repeat;
+}
+
+@media (max-width: 768px) {
+  .bg_clip2 {
+    background: url("/infoblockbg.png") right center / 200% 100% no-repeat;
+  }
+  .bg_clip {
+    background: url("/bgred.png") center bottom / 100% no-repeat;
+  }
+  .bg_full_info {
+    background: url("/infoblockfullbg.png") center / cover no-repeat;
+  }
+}
+
+.character_after::after {
+  content: "";
+  height: 90px;
+  width: 1px;
+  background: #dddddd;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: red transparent !important;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: red !important;
+  border-radius: 10px;
+  z-index: 11;
+}
+.custom-scrollbar {
+  overflow: auto; /* Ensure overflow is enabled */
+}
+
+/* styles.css */
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+
+.modal-content {
+  background: white;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 8px;
+  position: relative;
+  width: max-content;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+  width: 30px !important;
+  height: 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  /* width: calc(100% - 0px); */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 65px;
+  outline: none;
+  width: 390px;
+}
+
+.modal-content button {
+  width: 390px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .modal-content input,
+  .modal-content textarea {
+    width: calc(100% - 0px);
+  }
+  .modal-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .modal-content button {
+    width: calc(100% - 0px);
+  }
+}
+.modal-message {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.nav_list div {
+  background: transparent;
+  transition: 0.3s;
+}
+
+.nav_list:hover > div {
+  background: red;
+}
+
+.range-input {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  background: transparent;
+  position: absolute;
+  pointer-events: none;
+}
+
+.range-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: red;
+  cursor: pointer;
+  pointer-events: auto;
+  border-radius: 50%;
+}
+
+.range-input::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: red;
+  cursor: pointer;
+  pointer-events: auto;
+  border-radius: 50%;
+}
+
+.range-slider-track {
+  position: absolute;
+  height: 2px;
+  background-color: red;
+  top: 50%;
+  transform: translateY(-50%);
+}
