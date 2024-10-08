@@ -5,7 +5,7 @@ const Modal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
     name: "",
     // last_name: "",
-    phone: "",
+    phone: "+8210",
     // email: "",
     // discription: "",
   });
@@ -77,16 +77,6 @@ const Modal = ({ isOpen, onClose }) => {
           />
           {errors.name && <p className="error-message">{errors.name}</p>}
 
-          {/* <input
-            type="text"
-            name="last_name"
-            placeholder="Фамилия"
-            value={formData.last_name}
-            onChange={handleChange}
-          />
-          {errors.last_name && (
-            <p className="error-message">{errors.last_name}</p>
-          )} */}
           <p className="text-xs text-[#ACACAC] mb-1 mt-3 font-semibold">
             Номер телефона
           </p>
@@ -100,25 +90,6 @@ const Modal = ({ isOpen, onClose }) => {
             maxLength={12}
           />
           {errors.phone && <p className="error-message">{errors.phone}</p>}
-
-          {/* <input
-            type="email"
-            name="email"
-            placeholder="Электронная почта"
-            value={formData.email}
-            onChange={handleChange}
-          />
-          {errors.email && <p className="error-message">{errors.email}</p>}
-
-          <textarea
-            name="discription"
-            placeholder="Сообщение"
-            value={formData.discription}
-            onChange={handleChange}
-          ></textarea>
-          {errors.discription && (
-            <p className="error-message">{errors.discription}</p>
-          )} */}
 
           <button type="submit" className="text-xs h-[70px] mt-8">
             Оставить заявку

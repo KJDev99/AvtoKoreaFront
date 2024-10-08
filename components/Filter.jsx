@@ -247,21 +247,21 @@ const Filter = ({ btn }) => {
               />
             </div>
             <div className="flex flex-wrap mt-5 rounded-[5px] justify-between max-md:flex-wrap">
-              <div className="flex w-full md:flex-col my-4 max-md:w-full">
+              <div className="flex w-full flex-col my-4 max-md:w-full ">
                 {" "}
                 <SelectCars
                   onCategoryChange={handleCategoryChange}
                   onDistrictChange={handleDistrictChange}
                   onGenerationChange={handleGenerationChange}
                 />
-                <div className="flex flex-col justify-between px-[30px]">
-                  {/* <FuelSelect onFuelChange={handleFuelChange} /> */}
+                <div className="flex flex-col justify-between md:px-[30px]">
                   <ConfigurationSelect
                     onConfigurationChange={handleConfigurationChange}
                   />
                   <AdditionalSelect
                     onAdditionalChange={handleAdditionalChange}
                   />
+                  <FuelSelect onFuelChange={handleFuelChange} />
                 </div>
               </div>
               <div className="flex flex-col items-center w-5/5 md:px-[40px] flex-wrap md:flex-grow md:justify-around mb-8 max-md:flex-wrap max-md:w-full">
@@ -314,12 +314,12 @@ const Filter = ({ btn }) => {
               <div className="flex flex-col mb-9 gap-4">
                 <div className="flex justify-between items-center max-md:container">
                   <h2 className="font-montserrat text-[28px] font-black max-md:text-xl uppercase">
-                    В наличии
+                    &nbsp;
                   </h2>
                   <MoneySelect />
                 </div>
 
-                <div className="grid grid-cols-2 gap-6 max-md:grid-cols-1 max-md:flex max-md:overflow-x-auto max-md:gap-[10px]  custom-scrollbar mb-4 max-md:p-5">
+                <div className="grid grid-cols-2 gap-6 max-md:grid-cols-1 max-md:flex max-md:overflow-x-auto max-md:gap-[10px]  custom-scrollbar mb-4 max-md:py-5">
                   {cardCarData.map((elon, index) => (
                     <Link
                       href={`/katalog/${elon.id}`}

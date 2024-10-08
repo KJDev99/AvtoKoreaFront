@@ -48,7 +48,10 @@ const FuelSelect = ({ onFuelChange }) => {
   }, []);
 
   return (
-    <div className="relative w-full max-md:w-full" ref={fuelRef}>
+    <div
+      className="relative w-full max-md:w-full opacity-0 z-[-1] hidden"
+      ref={fuelRef}
+    >
       <div
         className={`flex flex-col p-[10px] rounded-[10px] cursor-pointer`}
         onClick={toggleFuel}

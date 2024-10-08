@@ -185,10 +185,10 @@ export default function Footer() {
                 <div className="flex items-center mb-5 max-md:mb-[15px] md:mx-5">
                   <BsTelephone className="mr-2 flex-shrink-0" />
                   <a
-                    href="tel:+821046947575"
+                    href="tel:+821080393003"
                     className="text-sm max-md:text-xs text-nowrap"
                   >
-                    +82 10-4694-7575
+                    +82 10-8039-3003
                   </a>
                 </div>
                 <div className="flex items-center mb-5 max-md:mb-[15px]">
@@ -206,7 +206,7 @@ export default function Footer() {
                   <FaVk className="cursor-pointer text-c989898 text-xl" />
                 </a>
                 <a
-                  href="https://wa.me/821046947575"
+                  href="https://wa.me/821080393003"
                   className="bg-[#333333] flex items-center justify-between p-3  mr-1"
                 >
                   <FaWhatsapp className="cursor-pointer text-c989898 text-xl" />
@@ -232,7 +232,7 @@ export default function Footer() {
             Политика и конфиденциальность
           </p>
         </Link>
-        <div
+        {/* <div
           className="absolute right-0 bottom-[30px] flex flex-col items-end cursor-pointer max-md:right-5"
           onClick={handleScrollToTop}
         >
@@ -242,7 +242,7 @@ export default function Footer() {
           <p className="mt-5 text-white  text-xs font-semibold">
             Сделано в UserTech
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -97,7 +97,7 @@ const Reviews = () => {
               <img
                 src={review.image}
                 alt={review.title}
-                className="cursor-pointer !h-[296px]"
+                className="cursor-pointer !h-max"
                 onClick={() => openModal(review.image)}
               />
             </SwiperSlide>

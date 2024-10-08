@@ -44,11 +44,11 @@ const Header = () => {
                   <p className="text-[17px] text-[#989898] font-medium mb-6 text-left max-md:text-[13px] max-md:mb-[13px]">
                     {banner.short_discription}
                   </p>
-                  <div className="h-[70px] w-[220px] cursor-pointer max-md:h-[46px] max-md:w-[143px]">
+                  {/* <div className="h-[70px] w-[220px] cursor-pointer max-md:h-[46px] max-md:w-[143px]">
                     <a href={banner.url} rel="noopener noreferrer">
                       <Button text="Подробнее" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 {/* <img
                   src={banner.image}

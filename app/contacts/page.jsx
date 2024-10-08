@@ -8,7 +8,7 @@ import api from "@/lib/api";
 
 const page = () => {
   const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
+  const [phone, setPhone] = useState("+8210");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(false);
@@ -57,8 +57,8 @@ const page = () => {
               <p className="text-[#989898] text-sm mb-1 max-md:text-xs">
                 Телефон
               </p>
-              <a className="text text-[#202020]" href="tel:+821046947575">
-                +82 10-4694-7575
+              <a className="text text-[#202020]" href="tel:+821080393003">
+                +82 10-8039-3003
               </a>
             </div>
             <div className="flex flex-col font-medium mb-6 max-md:mb-3">
@@ -94,7 +94,7 @@ const page = () => {
                 <FaVk className="cursor-pointer text-c989898 text-xl" />
               </a>
               <a
-                href="https://wa.me/821046947575"
+                href="https://wa.me/821080393003"
                 className="bg-[#F6F6F6] flex font-medium justify-between p-4 mr-1"
               >
                 <FaWhatsapp className="cursor-pointer text-c989898 text-xl" />

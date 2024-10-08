@@ -128,33 +128,33 @@ const CardCar = ({
           {text}
         </p>
         <div className="grid grid-cols-3 gap-[5px] pb-3 border-b border-[#E6E6E6]">
-          <div className="flex items-center justify-start border h-[48px] px-3 rounded-[5px] max-md:px-2 max-md:h-[38px]">
+          <div className="flex items-center justify-start max-md:justify-center overflow-hidden border h-[48px] px-3 rounded-[5px] max-md:px-2 max-md:h-[38px]">
             <Image
               src={CarSpeed}
               alt="Speed"
-              className="!w-[18px] !h-auto mr-[10px] max-md:mr-[5px] max-md:w-[15px]"
+              className="w-[18px] !h-auto mr-[10px] max-md:mr-[3px] max-md:w-[12px]"
             />
-            <p className="text-[#202020] font-medium text-sm max-md:text-[11px]">
+            <p className="text-[#202020] font-medium text-sm max-md:text-[10px]">
               {speed}&nbsp;км
             </p>
           </div>
-          <div className="flex items-center justify-start border h-[48px] px-3 rounded-[5px] max-md:px-2 max-md:h-[38px]">
+          <div className="flex items-center justify-start max-md:justify-center overflow-hidden border h-[48px] px-3 rounded-[5px] max-md:px-2 max-md:h-[38px]">
             <Image
               src={CarOil}
               alt="Oil"
-              className="!w-[18px] !h-auto mr-[10px] max-md:mr-[5px] max-md:w-[15px]"
+              className="w-[18px] !h-auto mr-[10px] max-md:mr-[3px] max-md:w-[12px]"
             />
-            <p className="text-[#202020] font-medium text-sm max-md:text-[11px]">
+            <p className="text-[#202020] font-medium text-sm max-md:text-[10px]">
               {oil}
             </p>
           </div>
-          <div className="flex items-center justify-start border h-[48px] px-3 rounded-[5px] max-md:px-2 max-md:h-[38px]">
+          <div className="flex items-center justify-start max-md:justify-center overflow-hidden border h-[48px] px-3 rounded-[5px] max-md:px-2 max-md:h-[38px]">
             <Image
               src={CarYear}
               alt="Year"
-              className="!w-[18px] !h-auto mr-[10px] max-md:mr-[5px] max-md:w-[15px]"
+              className="w-[18px] !h-auto mr-[10px] max-md:mr-[3px] max-md:w-[12px]"
             />
-            <p className="text-[#202020] font-medium text-sm max-md:text-[11px]">
+            <p className="text-[#202020] font-medium text-sm max-md:text-[10px]">
               {year}&nbsp;год
             </p>
           </div>

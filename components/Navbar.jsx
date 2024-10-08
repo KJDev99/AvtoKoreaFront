@@ -75,10 +75,10 @@ const Navbar = () => {
                 308-5 Южная Корея, г. Сувон
               </p>
               <a
-                href="tel:+821046947575"
+                href="tel:+821080393003"
                 className="text-c989898 flex text-sm items-center ml-[50px] font-medium"
               >
-                <BsTelephone className="mr-3 text-lg mt-1" /> +82 10-4694-7575
+                <BsTelephone className="mr-3 text-lg mt-1" /> +82 10-8039-3003
               </a>
               <a
                 href="mainto:rina051374@gmail.com"
@@ -95,7 +95,7 @@ const Navbar = () => {
                 <FaVk className="cursor-pointer text-c989898 text-lg" />
               </a>
               <a
-                href="https://wa.me/821046947575"
+                href="https://wa.me/821080393003"
                 className="flex items-center justify-between ml-5"
               >
                 <FaWhatsapp className="cursor-pointer text-c989898 text-lg" />
@@ -305,10 +305,10 @@ const Navbar = () => {
                   <div className="flex items-center mb-5 max-md:mb-[15px]">
                     <BsTelephone className="mr-2" />
                     <a
-                      href="tel:+821046947575"
+                      href="tel:+821080393003"
                       className="text-sm max-md:text-xs"
                     >
-                      +82 10-4694-7575
+                      +82 10-8039-3003
                     </a>
                   </div>
                   <div className="flex items-center mb-5 max-md:mb-[15px]">
@@ -328,7 +328,7 @@ const Navbar = () => {
                       <FaVk className="cursor-pointer text-c989898 text-xl" />
                     </a>
                     <a
-                      href="https://wa.me/821046947575"
+                      href="https://wa.me/821080393003"
                       className="bg-bgwhite flex items-center justify-between p-3 mr-1"
                     >
                       <FaWhatsapp className="cursor-pointer text-c989898 text-xl" />

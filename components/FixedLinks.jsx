@@ -29,7 +29,7 @@ const FixedLinks = () => {
           <FaVk className="cursor-pointer text-[#ED0000] text-xl" />
         </a>
         <a
-          href="https://wa.me/821046947575"
+          href="https://wa.me/821080393003"
           className={`bg-white mb-[10px] rounded-full flex items-center justify-center h-12 w-12 shadow-lg transition-transform ${
             isOpen ? "translate-y-0" : "translate-y-[-50px]"
           }`}
@@ -50,10 +50,10 @@ const FixedLinks = () => {
             isOpen ? "translate-y-0" : "translate-y-[-50px]"
           }`}
         >
-          <FaFacebookF className="cursor-pointer text-[#ED0000] text-xl" />
+          <FaFacebookF className="cursor-pointer text-[green] text-xl" />
         </a>
         <a
-          href="tel:+821046947575"
+          href="tel:+821080393003"
           className={`bg-white mb-[10px] rounded-full flex items-center justify-center h-12 w-12 shadow-lg transition-transform ${
             isOpen ? "translate-y-0" : "translate-y-[-50px]"
           }`}
@@ -70,8 +70,8 @@ const FixedLinks = () => {
         <FiPlus className="text-3xl font-bold" />
       </button>
       <a
-        href="tel:+821046947575"
-        className={`bg-[#ff0000] mb-[10px] rounded-full flex items-center justify-center h-12 w-12 shadow-lg transition-transform ${
+        href="tel:+821080393003"
+        className={`bg-[green] mb-[10px] rounded-full flex items-center justify-center h-12 w-12 shadow-lg transition-transform ${
           isOpen ? "translate-y-0" : "translate-y-[-50px]"
         }`}
       >

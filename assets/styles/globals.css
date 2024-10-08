@@ -25,12 +25,12 @@ body {
   align-items: center;
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 .mySwiper1 .swiper-pagination-bullet {
   background: #e1e1e1;
   height: 4px;
@@ -218,16 +218,22 @@ body {
   cursor: pointer;
 }
 @media (max-width: 767px) {
+  .modal-overlay {
+    width: 100%;
+  }
+  .modal-content {
+    width: 90%;
+  }
   .modal-content input,
   .modal-content textarea {
-    width: calc(100% - 0px);
+    width: calc(100%);
   }
   .modal-content {
     padding-left: 20px;
     padding-right: 20px;
   }
   .modal-content button {
-    width: calc(100% - 0px);
+    width: calc(100%);
   }
 }
 .modal-message {
